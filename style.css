@@ -1,0 +1,23 @@
+/* h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Lato BLACK';
+} */
+#headerone {
+    color: rgb(255, 255, 255);
+    font-family: 'Lato Black', sans-serif;
+}
+#headertwo {
+    color: rgb(255, 255, 255);
+    font-family: 'Lato Black';
+}
+
+
+body{
+    background-color: rgb(34, 40, 53)
+       
+      
+      ;
+}
+/* body {
+    background-color:#8a817c;
+} */

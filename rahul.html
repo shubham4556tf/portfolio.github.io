@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/295b063b70.js" crossorigin="anonymous"></script>
+    <title>Responsive Website</title>
+    <link rel="shortcut icon" href="https://logodix.com/logo/385713.png" type="image/x-icon">
+    <style>
+      /* ************  INCLUDE CSS *********** */
+  
+    #navbarSupportedContent a{
+    color:white;
+    padding: 5px 5px;
+    margin-right:15px;
+    margin-left:15px;
+
+}
+#navbarSupportedContent a:hover{
+          color: black;
+          font: bold;
+          
+}
+span{
+       font-size:40px;
+       line-height: 40px;
+}
+#btn1{
+      padding:6px 30px;
+      border-radius:20px;
+      border:none;
+      margin-bottom:20px;
+      position:relative;
+      top:-45px;
+}
+#btn1:hover{
+      border:1px solid white;
+      background-color: rgb(132, 132, 248);
+      transition:all 1s linear;
+      color:white;
+
+}
+#div1{
+        line-height:50px;
+        font-size:45px;
+        margin-top:80px;
+        
+        
+}
+#para{
+         margin-top:20px;
+}
+#man{
+        height:500px;
+        width:300px;
+        margin-left:70px;
+}
+@media (max-width:992px){
+      #man{
+      margin-left:40px;
+      }
+}
+@media (max-width:768px){
+      #man{
+      margin-left:0px;
+      }
+      #div1{
+              text-align: center;
+      }
+      #btn2{
+              display:flex;
+             justify-content: center;          
+            
+      }
+}
+@media (min-width:540px) and (max-width:600px){
+      #man{
+            margin-left:80px;
+      }
+}
+#head{
+        margin-top:100px;
+}
+#same{
+         line-height:30px;
+         text-align:center;
+      
+}
+h3{
+      margin-top:25px;
+}
+p{
+       margin-bottom:70px;
+}
+#samediv{
+        margin-top: 25px;
+        margin-bottom:15px;
+        display:flex;
+        flex-direction:row-reverse;
+}
+h5{
+      margin-top:30px;
+}
+
+ #btn{
+     padding:6px 40px;
+     border-radius:20px;
+     border:none;  
+     color:white;     
+     background-color: rgb(79, 209, 223);    
+     margin-top: 10px; 
+
+}
+#btn:hover{
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+      transition: all 0.5s linear;
+      
+ }
+#whatsapp{
+      padding:6px 24px;
+      border-radius:20px;
+      border:none;  
+      color:white;     
+      background-color: rgb(54, 218, 106);    
+      margin-top: 10px; 
+}
+#whatsapp:hover{
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+      transition: all 0.5s linear;
+      
+ }
+ #ddd{
+      text-align:justify;
+ }
+ .h44{
+      margin-top:40px;
+      margin-bottom:30px;
+}
+ #proimg{
+      margin-top:50px;
+      transition: all 2s linear;
+  }
+  #proimg:hover{
+   cursor: pointer;
+   width:520px;
+ 
+  }
+  #proimg1{
+      margin-top:50px;
+      transition: all 2s linear;
+  }
+  #proimg1:hover{
+   cursor: pointer;
+   width:300px;
+ 
+  }
+  
+/* *********************** */
+  
+    </style>
+</head>
+<body>
+    <!-- *************************** This is Navbar **************************** -->
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(132, 132, 248); position:sticky; top:0px; ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://logos.textgiraffe.com/logos/logo-name/Zubair-designstyle-cartoon-m.png" alt="" height="40px" width="70px" style="margin-left:10px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+<!-- ************************************* Intro $ photo ********************************** -->
+        <div class="container-fluid" id="home">
+          <div class="row mb-5" style="background-color: rgb(134, 134, 251); " >
+               <div class="col-md-6 ps-5 pt-5 mb-5"><img id="man" class="img-fluid" src="https://purepng.com/public/uploads/large/purepng.com-manmanadult-malemale-childboy-beingmens-1421526920943c4xhn.png" alt=""></div>
+               <div class="col-md-6 pt-5 align-item-center text-light" >
+                <div id="div1"> Hi, I'm <br><b>ER. ZUBAIR AHMAD</b><br><span></span>
+                  <span id="element"></span>
+                </div>
+                <p id="para">I am a self-motivated person and believe that 'self-motivation' is an extremely important skill. Every morning, I wake up and say a simple affirmation aloud, I am a winner, and I am going to continue winning today. It helps to start the day on a positive note.</p>
+                <div id="btn2"><button id="btn1">LET US TALK</button></div>
+               </div>
+          </div>
+        </div>
+<!-- ***********************************  Home Complete ****************************** -->
+
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+   
+  // var name = new Name('#div1', {
+  //   strings: ['Hi, I'm <br><b>ER. ZUBAIR AHMAD</b><br>' ],
+  //   nameSpeed: 50,
+
+  // var typed = new Typed('#element', {
+  //   strings: [ ' Hi Zubair Ahmad Software Engineer', 'Software Engineer'],
+  //   typeSpeed: 50,
+  // });
+</script>
+
+   <div class="container-fluid" id="services">
+      <div class="row">
+           <div class="col-md-12 " style="margin-top:100px;">                 
+            <h1 id="same">Have a Look at my Services</h1>
+            <p id="same">Who are in extremely love with eco friendly system.</p>
+           </div>
+      </div>
+      <div class="row mt-3 text-center ">
+         <div class="col-md-6">
+          <img src="img\s1.png" alt="">
+          <h3>Web Design</h3>
+          <p>I am a full stack developer . I can design to any website by use of Html, CSS , Javascript and bootstrap basically i am mostly use bootstrap in frontend of website.</p>
+          <img src="img\s3.png" alt="">
+          <h3>GUI Development</h3>
+          <p>GUI stands for Graphical User Interface we can called it Desktop Software .In the GUI Development i used to Tkinter(Tk/tcl) because it is very easy to design and backend of any software . I can developed Desktop Software any type according to client's requirements.</p>
+        <img src="img\s5.png" alt=""> 
+        <h3>Graphics Design</h3>
+        <p>We are also a designer , we can design a picture or logo . Here we used many technologies to desgin a query . There we works of Enhance the quality of image and compress any too much big file and also we do create a logo or image for website or software etc.</p>
+        </div>
+         <div class="col-md-6">
+          <img src="img\s2.png" alt="">
+          <h3>Web Development</h3>
+          <p>As a Python developer . I can design to any website by use of Html, CSS , Javascript and bootstrap and i can also backend of any website in Python's web framework Django/Flask . Mostly i am use to backend Django web framework.</p>
+          <img src="img\s4.png" alt="">
+          <h3>Machine Learning</h3>
+          <p>If you need to any AI project or Machine Learning for example : Detection or recognition and Voice command software you can contact us.</p>
+          <img src="img\s6.png" alt="">
+          <h3>Softfware Development</h3>
+          <p>Any software can be called Graphical User Interface . we can called it Desktop Software or any type Software.In the GUI Development i used to Tkinter(Tk/tcl) because it is very easy to design and backend of any software . I can developed Desktop Software any type according to client's requirements.</p>
+         </div>
+        </div>
+   </div>
+   <!-- ************************** Services Complete ************************** -->
+     <div class="container-fluid" id="about">
+        <div class="row">
+          <div class="col-md-12" style="margin-top: 100px;">
+            <h1 id="same">About Myself</h1>
+            <p id="same">Who are in extremely love with eco friendly system.</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-6 pt-5 pb-5" style="background-color: rgb(243, 245, 247);">
+            <p1>I have done my primary and secondary education in my city Amroha244221 in UP. I've completed my BCA in Aug 2021 with 84%. After Done my BCA period, We did project under the name of robotics arm operated by voice command and laptop. I contribute my self as organizing team member and core committee member of the national level technical event, Footprints. We have done a project of development of semiautomatic gas cutting and welding machine. Now coming to my hobbies and goa. My short-term goal is to launch a software company in own city. My long-term goal is to achieve a higher position of the organization. My hobies are to connect the daily activity to engineering concept and playing PUBG. My strengths are I am a dedicated and hardworking person and my area of improvement is I am a little bit shy and easily belive in peopls. That's all about me.</p1>
+            <h5>Tools Expertness</h5>
+            <div id="samediv">IDEs 90%</div>
+            <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+            </div>
+
+            <div id="samediv">Python skills 80%</div>
+            <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-success" style="width: 80%"></div>
+            </div>
+
+            <div id="samediv">Django( web framework ) 75%</div>
+            <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-info" style="width: 70%"></div>
+            </div>
+
+            <div id="samediv">Web Design 85%</div>
+            <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-warning" style="width: 85%"></div>
+            </div>
+
+            <div id="samediv">Software Development 95%</div>
+            <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-danger" style="width: 95%"></div>
+            </div>         
+          </div>
+          <div class="col-lg-6 ps-5 mt-5 text-center mb-5">
+                <img class="img-fluid" src="https://th.bing.com/th/id/R.5eaf8b1bbf622cd64b482b7a4664fa3b?rik=qI5oTTk5KBUmIQ&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-men-pointing-leftmanpeoplepersonsmalegesturespointing-left-1121525121682mlzuz.png&ehk=wRSB6N%2brMGwZzWN03ZT1mq9poglMRShfzwFaQnyRQtg%3d&risl=1&pid=ImgRaw&r=0" alt=""  height="400px" width="600px" style="margin-bottom:30px;">
+                
+                  <h4>ER. ZUBAIR AHMAD</h4>
+                  <p10>Software Engineer( BCA )<br> <i class="fa-solid fa-phone-volume"></i> (+91) 7084013893 <br> <i class="fa-regular fa-envelope"></i> sb76612@gmail.com</p10><br>
+                  <button id="btn">Email</button><br><button id="whatsapp">Whatsapp</button>       
+          </div>
+        </div>
+     </div>
+<!-- ****************************** About Complete *********************** -->
+     <div class="container-fluid" id="projects">
+      <div class="row text-center pt-5 pb-5">
+          <div class="col-12" style="margin-top:10px;">
+              <h1 style="margin-top:20px;">Latest Done Projects</h1>
+                <p5>Who are in extremely love with eco friendly system.</p5>
+          </div>
+      </div>
+    </div>
+    <div class="container-fluid" >
+      <div class="row mb-5 justify-content-center">
+            <div class="col-md-6"> <img id="proimg" class="img-fluid" src="img\l1.png" alt=""><h4 class="h44">Tkinter GUI-Development</h4><p11>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.</p11>
+            <img id="proimg" class="img-fluid" src="img\l3.jpg" alt=""><h4 class="h44">Amru.in</h4><p11>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.</p11>
+            <br><br>
+            <hr>
+            </div>
+            
+            <div class="col-md-6">
+             <h4 class="h44">Python Turtle_Graphics</h4><p11>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.</p11>
+             <img id="proimg"  class="img-fluid" src="img\l2.png" alt="">
+             <h4 class="h44">Python Turtle_Graphics</h4><p11>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.</p11><br>
+             <img id="proimg1" class="img-fluid" src="img\l4.png" alt="">
+            </div>
+            </div>
+      </div>
+  </div>
+ <!-- ************************************** Projects Complete ************************  -->
+ 
+<!-- *********************************** project 1 website Copy ******************************** -->
+
+
+<div class="container-fluid" id="contact" >
+  <div class="row pt-3 pb-3">
+    <div class="col-md-12 text-center " style="margin-top: 50px;">
+      <h1 style="margin-top:20px;">If you need any website or software of<br> any type , just now contact us</h1>
+        <p5>Who are in extremely love with eco friendly system.</p5>
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <div class="col-md-3 mt-5 text-center">
+      <h1><i class="fa-solid fa-code text-primary"></i></h1>
+      <h5>Biult for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus expedita ipsa maiores enim debitis.</p>
+    </div>
+    <div class="col-md-3 mt-5 text-center">
+      <h1><i class="fa-solid fa-laptop-file text-danger"></i></h1>
+      <h5>Biult for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus expedita ipsa maiores enim debitis.</p>
+    </div>
+    <div class="col-md-3 mt-5 text-center">
+      <h1><i class="fa-solid fa-calendar-days text-success"></i></h1>
+      <h5>Biult for developers</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ducimus expedita ipsa maiores enim debitis.</p>
+    </div>
+  </div>
+</div>
+<!-- <********************************************* -->
+<hr>
+  </div>
+</div>
+   
+<div class="row mt-5 pt-5 pb-5" style="background-color: #f1f1f1;">
+     <div class="col-md-6  justify-content-evenly mb-5 ps-5 pe-5">
+      <form>
+        <h3>Contact Form</h3>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="email" class="form-control" id="name">
+          <div id="name" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+     </div>
+                 
+     <div class="col-md-6 ps-5 pe-5">
+           <h3>Address</h3>
+           <div>291 , kimberty Way. Williston Park<br>New York - 115986 <br> Call : 917-772-6081</div><br>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.9581280243387!2d77.22509010979252!3d28.66097238268932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd43c97f5637%3A0x6cbb5339b261704c!2sDelhi%20railway%20station!5e0!3m2!1sen!2sin!4v1691511693226!5m2!1sen!2sin" style="width:100%; margin-top:10px;" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </div>
+</div>
+ <div class="row justify-content-evenly mt-5 pt-5 pb-5">
+     <div class="col-md-12 ps-3 pe-3">
+      <h2 class="text-center">FAQ</h2>
+      <div class="accordion accordion-flush border" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+     </div>
+ </div>
+ <div class="row bg-dark text-light pt-4 ">
+   <div class="col-md-4  ps-5">
+    <h5>Tech Gun</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci corrupti incidunt possimus assumenda voluptatum.</p>
+   </div>
+   <div class="col-md-4 ps-5">
+    <h5>Important Links</h5>
+    <p> 
+         <a href="#" class="text-light" style="text-decoration:none;">Home</a><br>
+         <a href="#" class="text-light" style="text-decoration:none;">About</a><br>
+         <a href="#" class="text-light" style="text-decoration:none;">Services</a><br>
+         <a href="#" class="text-light" style="text-decoration:none;">Conatct Us</a><br>
+         
+    </p>
+   </div>
+   <div class="col-md-4 pb-3 pe-5 ps-5">
+    <h5>Contact US</h5>
+    <div>291 , kimberty Way. Williston Park<br>New York - 115986 <br> <i class="fa-solid fa-phone-volume"></i> : 917-772-6081</div><br>
+   </div>
+ </div>
+ <div class="row bg-secondary text-light text-center">
+  <div class="col-md-12 " style="height:50px; line-height: 50px;">
+    <p20>This Website Create by Zubair Ahmad.</p20>
+  </div>
+ </div>
+</div>
+<script>
+    var a=document.querySelector("#z1");
+    console.log(a);
+</script>
+</body>
+</html>

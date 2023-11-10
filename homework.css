@@ -1,0 +1,46 @@
+/* #traficlight{ 
+
+    
+    font-size: 20px;
+    border: 2px solid black;
+    height: 20px;
+    text-align: center;
+    padding-left: 20px; 
+    
+
+
+}*/
+#divtraficlight{
+    width: 250px;
+    height: 575px;
+    border: 2px solid orange;
+    
+}
+#divfirstcirle{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#divfsecondcirle{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+#divthirdcirle{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}

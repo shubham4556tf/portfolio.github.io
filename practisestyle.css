@@ -1,0 +1,89 @@
+body{
+   background-color:rgb(34, 40, 53);
+}
+/* #box{
+    color: whitesmoke;
+    font-family: lato,lato black;
+    text-align: center;
+    font-size: xxx-large;
+     
+} */
+#box {
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 48px ; /* You can adjust the size as needed for your design */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 3px; /* Adds letter spacing for a stylish effect */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); Adds a subtle text shadow for depth */
+    background-color: rgb(132, 151, 176);
+    padding: 10px; /* Add padding to create space around the text */
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    
+}
+#para1{
+    color: wheat;
+    font-size: 20px;
+    font-family: "lato";
+    text-align: center;
+    text-transform: capitalize;
+      
+
+}
+
+
+#para2  {
+    height:50px;
+    width: 100px;
+    display: inline-flex;
+    padding: 10px; /* Add padding to create space around the text */
+    background-color: rgba(132, 151, 176, 0.2); /* Semi-transparent background color */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+    color: wheat;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 49px;
+    border: 2px dashed antiquewhite; /* Use 'border' shorthand property */
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8PX;
+    
+    
+}
+#para3{ 
+    border: 2px dashed whitesmoke;
+    background-color: rgba(132, 151, 176, 0.2);
+    width:100px;
+    height:60px ;
+    border-radius: 8px ;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    padding-left: 2px;
+    padding-top: 1%;
+    text-align: center;
+
+    
+    text-transform: capitalize;
+    
+    
+    
+
+
+
+}
+#divpara3{ 
+    height:60px ;
+    width:100px;
+    
+    
+    
+    
+    
+}
+
+
